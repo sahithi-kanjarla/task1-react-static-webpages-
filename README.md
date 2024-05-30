@@ -36,6 +36,11 @@ Company Login page:
 ![Screenshot 2024-05-30 093014](https://github.com/sahithi-kanjarla/task1-react-static-webpages-/assets/139060052/78932cf3-6663-47c3-8e13-66811594b926)
 
 
+to create a react application:
+
+npx create-react-app project
+(here project is the name of the file)
+
 - to execute:
 
 in myapp.js: In the app.js file, update the default route to navigate to the desired page. Replace 'default-route' with the route path that corresponds to the page you want to execute when the application loads.
