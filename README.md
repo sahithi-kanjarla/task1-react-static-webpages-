@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+task1- Static Webpages
+requirements:
+- License Validation page: this page will be located under the following folder “src/components/LicenseValidation” with the filename as - LicenseValidation.jsx, LicenseValidation.module.css 
+- Company Selection page: This page will be located under the following folder “src/components/CompanySelection” with the filename as CompanySelection.jsx, CompanySelection.module.css
+- Company Login page: This page will be located under the following folder “src/components/CompanyLogin” with the filename as CompanyLogin.jsx, CompanyLogin.module.css
+License validation page:
+a login page, with input options:
+Email ID
+Password
+Clickable Logo: The Code logo is wrapped in a tag to make it clickable, redirecting to the specified URL. The logo scales slightly on hover for a visual effect.
+hovers on the submit button
+Forgot Password Link: Changes color smoothly on hover. Forgot Password Link: Changes color smoothly on hover.
+Responsive Design: Adjusts styles for smaller screens to maintain a good user experience across different devices.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+License Validation page :
+![Screenshot 2024-05-29 233524](https://github.com/sahithi-kanjarla/task1-react-static-webpages-/assets/139060052/45e184d6-def3-4535-b075-5680aea40705)
 
-## Available Scripts
+Company selection page:
 
-In the project directory, you can run:
+Functionality
+- Search Functionality must be incorporated to filter Companies
+- on click on the search icon, the search bar appears. and on click on the search icon, the search field disappears
+- hovers on icons(search and reload)
 
-### `npm start`
+![Screenshot 2024-05-29 231144](https://github.com/sahithi-kanjarla/task1-react-static-webpages-/assets/139060052/9f04bf7a-7d89-45e5-9f58-21a44de64225)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Company Login page: 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- a login page, with input options:
+1. Email ID
+2. Password
+- hovers on the submit button
+- Forgot Password Link: Changes color smoothly on hover. Forgot Password Link: Changes color smoothly on hover.
+- esponsive Design: Adjusts styles for smaller screens to maintain a good user experience across different devices.
 
-### `npm test`
+![Screenshot 2024-05-30 093014](https://github.com/sahithi-kanjarla/task1-react-static-webpages-/assets/139060052/78932cf3-6663-47c3-8e13-66811594b926)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+to execute:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+in myapp.js: In the app.js file, update the default route to navigate to the desired page. Replace 'default-route' with the route path that corresponds to the page you want to execute when the application loads.
+-npm start
