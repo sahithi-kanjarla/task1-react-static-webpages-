@@ -41,7 +41,7 @@ Company Login page:
 in myapp.js: In the app.js file, update the default route to navigate to the desired page. Replace 'default-route' with the route path that corresponds to the page you want to execute when the application loads.
 -npm start
 
-- installments:
+- Libraries to install:
 
 npm install react-router-dom
 npm install react-icons
