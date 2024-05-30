@@ -1,0 +1,130 @@
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: white; /* Background color changed to white */
+    padding: 20px;
+}
+
+/* Logo */
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.infinityx{
+    margin-top: 0px;
+    margin-bottom: 25px;
+    height: 80px;
+    width:100px;
+}
+
+.codep{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    width: 150px;
+    height: 25px;
+}
+.codep:Hover{
+    transform: scale(1.2);
+}
+/* Form */
+.form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    animation: fadeInUp 1s ease; /* Animation added */
+}
+
+/* Input fields */
+.input {
+    width: 90%;
+    padding: 12px; /* Increased padding */
+    margin-bottom: 20px; /* Increased margin */
+    border: 2px solid #673ab7; /* Border color changed */
+    border-radius: 30px; /* Rounded border */
+    font-size: 16px;
+    outline: none; /* Remove outline on focus */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.input:focus {
+    border-color: #0b7aad; /* Border color on focus */
+}
+
+/* Submit button */
+.button {
+    width: 70%;
+    padding: 12px;
+    background-color: #673ab7;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions for background color and transform */
+}
+
+.button:hover {
+    background-color: #0b7aad;
+    transform: scale(1.05); /* Button scale on hover */
+}
+
+/* Forgot password link */
+.forgot-password {
+    display: block;
+    margin-top: 20px; /* Increased margin */
+    color: #673ab7;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s; /* Smooth transition for color */
+}
+
+.forgot-password:hover {
+    color: #0b7aad; /* Color change on hover */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+    .logo {
+        width: 120px;
+    }
+
+    .form {
+        padding: 15px;
+    }
+
+    .input {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .forgot-password {
+        font-size: 12px;
+    }
+}
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
